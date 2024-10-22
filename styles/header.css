@@ -16,8 +16,13 @@
 }
 
 .header-collapsed-container img {
-  height: 80px;
-  width: 80px;
+  width: clamp(80px, 10%, 140px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  border-radius: 100%;
+  background-color: #625f63;
 }
 
 .header-broad-container {
@@ -57,7 +62,7 @@
   border: none !important;
 }
 
-@media only screen and (min-width: 915px) {
+@media only screen and (min-width: 950px) {
   .header-mobile {
     display: none;
   }
@@ -69,14 +74,19 @@
   .header-desktop-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
-    padding-right: 4%;
+    padding: 1.5rem;
   }
 
   .header-desktop-container img {
-    width: 100px;
-    height: 100px;
+    width: clamp(130px, 10%, 140px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    border-radius: 100%;
+    background-color: #625f63;
   }
 
   .header--container {
