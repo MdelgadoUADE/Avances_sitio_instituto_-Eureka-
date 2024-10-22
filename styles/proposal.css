@@ -1,0 +1,24 @@
+.container-general {
+  background-position: top;
+  background-image: url(../assets/images/proposal.jpg);
+}
+
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.header-desktop {
+  width: 100%;
+}
+
+.wordings-container {
+  padding: 0;
+}
+
+.background-color-primary {
+  background-color: #bbbdf6;
+}

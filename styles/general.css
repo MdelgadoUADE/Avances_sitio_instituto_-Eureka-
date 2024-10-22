@@ -1,30 +1,46 @@
 body {
-    font-family: 'Inter';
+  font-family: "Inter";
 }
 
 .container-general {
-   height: 100vh;
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-flex-padded {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 5%;
+}
+.flex-center {
+  align-self: center;
 }
 
 .wordings-container {
-   padding-top: 25%;
-   color: #fff;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   font-weight: 800 !important;
+  padding-top: 25%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800 !important;
 }
 
 .wordings-container h1 {
-   font-weight: 800;
-   font-size: 72px;
+  font-weight: 800;
+  font-size: 72px;
 }
 
 .wordings-container h3 {
-   font-weight: 800;
-   font-size: 48px;
+  font-weight: 800;
+  font-size: 48px;
 }

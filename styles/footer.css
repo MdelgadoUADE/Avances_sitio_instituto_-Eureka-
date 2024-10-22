@@ -1,0 +1,18 @@
+footer {
+  padding: 1% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer-color {
+  background-color: #72727e;
+}
