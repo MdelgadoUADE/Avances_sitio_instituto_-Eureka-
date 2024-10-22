@@ -4,6 +4,7 @@
 }
 
 .header-desktop {
+  width: 100%;
   display: none;
   background-color: #625f63;
 }
