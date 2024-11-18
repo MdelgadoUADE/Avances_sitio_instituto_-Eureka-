@@ -14,3 +14,93 @@
   color: #fff;
   border-radius: 10px;
 }
+
+.button {
+  font-size: 48px;
+  color: #fff;
+  background-color: #9893da;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  background-color: #bbbdf9;
+}
+
+#eureka {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  height: 120px;
+}
+
+#eureka h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+}
+
+#eureka-content {
+  background-color: #fff;
+  padding: 20px 18px;
+  color: #625f63;
+  font-weight: 800;
+}
+
+.info-container--item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #bbbdf9;
+  padding: 0 24px;
+}
+
+.info-container--item-image img {
+  width: 323px;
+  height: 216px;
+  border-radius: 10px;
+}
+
+.info-container--item-image {
+  margin: 24px 0;
+}
+
+.info-container--item-text {
+  color: #333;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 0 16px;
+}
+
+.info-container-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 47px;
+}
+
+.info-container-btn button {
+  font-size: 32px;
+}
+
+@media only screen and (min-width: 950px) {
+  .info-container--item {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 120px;
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  section .info-container--item:nth-of-type(odd) {
+    display: flex;
+    flex-direction: row-reverse; /* Par: flex inverso */
+  }
+}
