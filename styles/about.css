@@ -1,8 +1,55 @@
 body {
-    font-family: 'Inter';
+  font-family: "Inter";
+}
+
+#sobre {
+  font-size: 2rem;
+}
+#sobre .wordings-container-main {
+  font-size: 3rem;
 }
 
 .container-general {
-    background-image: url(../assets/images/about.jpg);
-    background-position: inherit;
+  background-image: url(../assets/images/about.jpg);
+  background-position: inherit;
+}
+
+.box-color-white {
+  color: #625f63;
+  background-color: #ebebfc;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+img {
+  width: 375px;
+  margin: 0 2rem;
+  border-radius: 1000px;
+  box-shadow: inset 20px 20px 30px 10px rgba(255, 255, 255, 0.2);
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+#closing-remarks {
+  color: #fff;
+  padding-top: 3rem;
+  font-size: 2.5rem;
+  line-height: 1.8;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#sobre button {
+  margin: 24px 0px;
+  font-weight: 800;
+  padding: 5%;
+  background-color: #9893da;
+  border: none;
+  font-size: 48px;
+  padding: 5px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+main section {
+  padding-bottom: 5rem;
 }

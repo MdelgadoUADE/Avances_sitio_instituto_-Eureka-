@@ -56,13 +56,18 @@
   align-self: center;
 }
 
-.wordings-container {
+.wordings-container,
+.wordings-container-main {
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 800 !important;
+}
+
+.wordings-container-main {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .wordings-container h1 {
