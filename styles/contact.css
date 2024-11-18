@@ -1,4 +1,56 @@
 .container-general {
-    background-image: url(../assets/images/contact.jpg);
-    background-position: inherit;
+  background-image: url(../assets/images/contact.jpg);
+  background-position: inherit;
+}
+
+main {
+  font-size: 2rem;
+}
+
+.h-contacto {
+  color: #797a9e;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.form-control,
+.form-select,
+.form-control::placeholder,
+.form-select::placeholder {
+  background-color: #bbbdf6 !important;
+  color: #fff !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  border-radius: 40px !important;
+  padding: 0.5rem 0.5rem !important;
+}
+
+form {
+  background: #f1f2fd;
+  border-radius: 30px;
+}
+
+#boton_enviar {
+  margin-top: 24px;
+  font-weight: 800;
+  background-color: #9893da;
+  border: none;
+  font-size: 36px;
+  width: 364px;
+  padding: 5px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#boton_borrar {
+  margin-top: 24px;
+  font-weight: 800;
+  background-color: #625f63;
+  border: none;
+  font-size: 36px;
+  width: 364px;
+  padding: 5px 30px;
+  color: #fff;
+  border-radius: 10px;
 }

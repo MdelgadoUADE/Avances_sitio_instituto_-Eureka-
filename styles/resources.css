@@ -1,3 +1,26 @@
 .container-general {
   background-image: url(../assets/images/resources.jpg);
 }
+
+main {
+  padding: 5%;
+}
+
+main section {
+  border-radius: 20px;
+  background-image: url(../assets/images/construccion.jpg);
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5),
+    -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+main section p {
+  text-align: center;
+  margin: 5%;
+}
+
+main section p:nth-child(2) {
+  margin-top: 40%;
+}
