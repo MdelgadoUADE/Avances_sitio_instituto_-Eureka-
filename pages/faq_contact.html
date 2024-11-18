@@ -73,6 +73,87 @@
       <div></div>
     </hgroup>
 
+    <main
+      id="contacto"
+      class="background-color-primary d-flex justify-content-center py-5"
+    >
+      <form class="w-75 p-5" action="">
+        <h2 class="h-contacto">Contacto</h2>
+        <div class="py-3 d-flex justify-content-between">
+          <label for="ingreso_nombre">Nombre</label>
+          <input
+            type="text"
+            class="form-control w-75"
+            id="ingreso_nombre"
+            placeholder="Ingrese su nombre"
+            required
+          />
+        </div>
+        <div class="py-3 d-flex justify-content-between">
+          <label for="ingreso_email">Email</label>
+          <input
+            type="email"
+            class="form-control w-75"
+            id="ingreso_email"
+            placeholder="Ingrese su email"
+            required
+          />
+        </div>
+
+        <div class="py-3 d-flex justify-content-between">
+          <label for="Razon">Razón de Contacto</label>
+          <select class="form-select w-50">
+            <option selected disabled>Seleccione una opcion</option>
+            <option value="consulta">Consulta</option>
+            <option value="presupuesto">Presupuesto</option>
+            <option value="sugerencia">Sugerencia</option>
+          </select>
+        </div>
+        <div class="py-3">
+          <input
+            type="text"
+            class="form-control"
+            id="titulo"
+            placeholder="Asunto:"
+            required
+          />
+        </div>
+        <div class="py-3">
+          <textarea
+            class="form-control"
+            id="ingreso_mensaje"
+            rows="4"
+            required
+            aria-describedby="ayudaTextarea"
+            placeholder="Ingrese su mensaje:"
+          ></textarea>
+          <small
+            id="ayudaTextarea"
+            class="form-text text-muted"
+            maxlength="1000"
+          >
+            Texto maximo 1000 caracteres
+          </small>
+        </div>
+        <div class="py-3 d-flex justify-content-evenly">
+          <button
+            id="boton_enviar"
+            type="submit"
+            class="btn btn-primary px-4 mx-2"
+          >
+            Enviar
+          </button>
+          <button
+            id="boton_borrar"
+            type="reset"
+            class="btn btn-secondary px-4 mx-2"
+          >
+            Borrar
+          </button>
+        </div>
+      </form>
+    </main>
+
     <footer class="footer-color">
       <div>
         <p>Website made by</p>
