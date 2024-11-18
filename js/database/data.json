@@ -1,0 +1,41 @@
+[
+    {
+      "course": "Mathematics",
+      "professors": [
+        {
+          "name": "Pablo Escobar",
+          "days": ["Monday", "Wednesday", "Friday"],
+          "duration": 2,
+          "hourly_rate": 50
+        },
+        {
+          "name": "Juan Gomez",
+          "days": ["Tuesday", "Wednesday"],
+          "duration": 1.5,
+          "hourly_rate": 45
+        }
+      ]
+    },
+    {
+      "course": "Physics",
+      "professors": [
+        {
+          "name": "Juan Gomez",
+          "days": ["Friday"],
+          "duration": 2,
+          "hourly_rate": 60
+        }
+      ]
+    },
+    {
+      "course": "Web Development",
+      "professors": [
+        {
+          "name": "Patricia Litovicius",
+          "days": ["Tuesday"],
+          "duration": 3,
+          "hourly_rate": 40
+        }
+      ]
+    }
+  ]

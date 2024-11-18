@@ -1,245 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="../assets/images/logo.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/header.css" />
-    <link rel="stylesheet" href="../styles/class.css" />
-    <link rel="stylesheet" href="../styles/footer.css" />
-    <link rel="stylesheet" href="../styles/general.css" />
-    <title>Cursos | Eureka!</title>
-  </head>
 
-  <body class="container-general">
-    <hgroup class="main-flex">
-      <header class="header-mobile">
-        <div
-          class="collapse header-broad-container"
-          id="navbarToggleExternalContent"
-        >
-          <ul class="header--container">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="">Cursos</a></li>
-            <li><a href="./about.html">Sobre</a></li>
-            <li><a href="./resources.html">Recursos</a></li>
-            <li><a href="./faq_contact.html">Contacto</a></li>
-            <li><a href="./proposal.html">Propuesta</a></li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="../assets/images/logo.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/header.css" />
+  <link rel="stylesheet" href="../styles/class.css" />
+  <link rel="stylesheet" href="../styles/footer.css" />
+  <link rel="stylesheet" href="../styles/general.css" />
+  <title>Cursos | Eureka!</title>
+</head>
+
+<body class="container-general">
+  <hgroup class="main-flex">
+    <header class="header-mobile">
+      <div class="collapse header-broad-container" id="navbarToggleExternalContent">
+        <ul class="header--container">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="">Cursos</a></li>
+          <li><a href="./about.html">Sobre</a></li>
+          <li><a href="./resources.html">Recursos</a></li>
+          <li><a href="./faq_contact.html">Contacto</a></li>
+          <li><a href="./proposal.html">Propuesta</a></li>
+        </ul>
+      </div>
+      <nav class="navbar navbar-dark">
+        <div class="container-fluid header-collapsed-container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="../index.html"><img src="../assets/images/logo.png" alt="logotipo de eureka" /></a>
         </div>
-        <nav class="navbar navbar-dark">
-          <div class="container-fluid header-collapsed-container">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="../index.html"
-              ><img src="../assets/images/logo.png" alt="logotipo de eureka"
-            /></a>
-          </div>
-        </nav>
-      </header>
+      </nav>
+    </header>
 
-      <header class="header-desktop">
-        <nav class="header-desktop-container">
-          <a href="../index.html"
-            ><img src="../assets/images/logo.png" alt="logotipo de eureka"
-          /></a>
+    <header class="header-desktop">
+      <nav class="header-desktop-container">
+        <a href="../index.html"><img src="../assets/images/logo.png" alt="logotipo de eureka" /></a>
 
-          <ul class="header--container">
-            <li><a href="../index.html">Inicio</a></li>
-            <li class="active-menu"><a href="">Cursos</a></li>
-            <li><a href="./about.html">Sobre</a></li>
-            <li><a href="./resources.html">Recursos</a></li>
-            <li><a href="./faq_contact.html">Contacto</a></li>
-            <li><a href="./proposal.html">Propuesta</a></li>
-          </ul>
-        </nav>
-      </header>
+        <ul class="header--container">
+          <li><a href="../index.html">Inicio</a></li>
+          <li class="active-menu"><a href="">Cursos</a></li>
+          <li><a href="./about.html">Sobre</a></li>
+          <li><a href="./resources.html">Recursos</a></li>
+          <li><a href="./faq_contact.html">Contacto</a></li>
+          <li><a href="./proposal.html">Propuesta</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <section class="wordings-section">
-        <article class="wordings-container">
-          <h1>Cursos</h1>
-          <h3>El conocimiento que buscas en la palma de tus manos</h3>
-          <button>Ver cursos</button>
-          <button>Cotizar cursos</button>
-        </article>
-      </section>
-
-      <div></div>
-    </hgroup>
-
-    <section class="courses-container">
-      <article class="search-container">
-        <input type="text" placeholder="Busca lo que necesitas...">
-      </article>
-
-      <article class="course">
-        <div class="course-image">
-          <img src="../assets/images/courses/math.jpg"/>
-        </div>
-        <div class="course-info-container">
-          <div class="course-title">
-            <h3>Clase de Matematica</h3>
-          </div>
-          <div class="course-description">
-            <p>Aprende y refuerza conceptos clave como álgebra, funciones, trigonometría y cálculo diferencial.</p>
-          </div>
-          <div class="course-info">
-            <p>Prof. Pablo Escobar</p>
-          </div>
-          <div class="course-info">
-            <p>Dias disponibles: Lunes, Miercoles y Viernes</p>
-          </div>
-          <div class="course-btn">
-            <button>Cotizar</button>
-          </div>
-        </div>
-      </article>
-
-      <article class="course">
-        <div class="course-image">
-          <img src="../assets/images/courses/physics.jpg"/>
-        </div>
-        <div class="course-info-container">
-          <div class="course-title">
-            <h3>Clase de Física</h3>
-          </div>
-          <div class="course-description">
-            <p>Domina los fundamentos de mecánica, electricidad, magnetismo y termodinámica.</p>
-          </div>
-          <div class="course-info">
-            <p>Prof. Juan Gomez</p>
-          </div>
-          <div class="course-info">
-            <p>Dias disponibles: Viernes</p>
-          </div>
-          <div class="course-btn">
-            <button>Cotizar</button>
-          </div>
-        </div>
-      </article>
-
-      <article class="course">
-        <div class="course-image">
-          <img src="../assets/images/courses/programming.jpg"/>
-        </div>
-        <div class="course-info-container">
-          <div class="course-title">
-            <h3>Clase de Matematica</h3>
-          </div>
-          <div class="course-description">
-            <p>Aprende los conceptos esenciales de programación, incluyendo lógica, estructuras de datos y algoritmos.</p>
-          </div>
-          <div class="course-info">
-            <p>Prof. Juan Gomez</p>
-          </div>
-          <div class="course-info">
-            <p>Dias disponibles: Martes y Miercoles</p>
-          </div>
-          <div class="course-btn">
-            <button>Cotizar</button>
-          </div>
-        </div>
-      </article>
-
-      <article class="course">
-        <div class="course-image">
-          <img src="../assets/images/courses/math.jpg"/>
-        </div>
-        <div class="course-info-container">
-          <div class="course-title">
-            <h3>Clase de Desarrollo Web</h3>
-          </div>
-          <div class="course-description">
-            <p>Crea sitios web modernos y funcionales aprendiendo HTML, CSS y JavaScript.</p>
-          </div>
-          <div class="course-info">
-            <p>Prof. Patricia Litovicius</p>
-          </div>
-          <div class="course-info">
-            <p>Dias disponibles: Martes</p>
-          </div>
-          <div class="course-btn">
-            <button>Cotizar</button>
-          </div>
-        </div>
+    <section class="wordings-section">
+      <article class="wordings-container">
+        <h1>Cursos</h1>
+        <h3>El conocimiento que buscas en la palma de tus manos</h3>
+        <button>Ver cursos</button>
+        <button>Cotizar cursos</button>
       </article>
     </section>
 
-    <section class="course-quoter-container">
-      <div class="course-quoter-title">
-        <h3>Cotizador de clases</h3>
+    <div></div>
+  </hgroup>
+
+  <section class="courses-container">
+    <article class="search-container">
+      <input type="text" placeholder="Busca lo que necesitas...">
+    </article>
+
+    <article class="course">
+      <div class="course-image">
+        <img src="../assets/images/courses/math.jpg" />
       </div>
-      <form>
-        <div class="couse-quoter-item">
-          <label>
-            Clase
-          </label>
-
-          <select name="" id=""></select>
+      <div class="course-info-container">
+        <div class="course-title">
+          <h3>Clase de Matematica</h3>
         </div>
-        <div class="couse-quoter-item">
-          <label>
-            Profesor
-          </label>
-
-          <select name="" id=""></select>
+        <div class="course-description">
+          <p>Aprende y refuerza conceptos clave como álgebra, funciones, trigonometría y cálculo diferencial.</p>
         </div>
-        <div class="couse-quoter-item">
-          <label>
-            Dias
-          </label>
-
-          <select name="" id=""></select>
+        <div class="course-info">
+          <p>Prof. Pablo Escobar</p>
         </div>
-        <div class="couse-quoter-item">
-          <label>
-            Duracion
-          </label>
-
-          <select name="" id=""></select>
+        <div class="course-info">
+          <p>Dias disponibles: Lunes, Miercoles y Viernes</p>
         </div>
-        <div class="couse-quoter-item">
-          <label>
-            Precio
-          </label>
-          <h4>$ 400 usd</h4>
+        <div class="course-btn">
+          <button>Cotizar</button>
         </div>
-
-        <div class="course-quoter-btn">
-          <button>Contactarse</button>
-        </div>
-      </form>
-    </section>
-
-    <footer class="footer-color">
-      <div>
-        <p>Website made by</p>
-        <p>Matias Delgado</p>
-        <p>Joaquin Rubek</p>
-        <p>Giuliano Cambeiro</p>
       </div>
-      <a href="./sitemap.html">Sitemap</a>
-    </footer>
+    </article>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <article class="course">
+      <div class="course-image">
+        <img src="../assets/images/courses/physics.jpg" />
+      </div>
+      <div class="course-info-container">
+        <div class="course-title">
+          <h3>Clase de Física</h3>
+        </div>
+        <div class="course-description">
+          <p>Domina los fundamentos de mecánica, electricidad, magnetismo y termodinámica.</p>
+        </div>
+        <div class="course-info">
+          <p>Prof. Juan Gomez</p>
+        </div>
+        <div class="course-info">
+          <p>Dias disponibles: Viernes</p>
+        </div>
+        <div class="course-btn">
+          <button>Cotizar</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="course">
+      <div class="course-image">
+        <img src="../assets/images/courses/programming.jpg" />
+      </div>
+      <div class="course-info-container">
+        <div class="course-title">
+          <h3>Clase de Matematica</h3>
+        </div>
+        <div class="course-description">
+          <p>Aprende los conceptos esenciales de programación, incluyendo lógica, estructuras de datos y algoritmos.</p>
+        </div>
+        <div class="course-info">
+          <p>Prof. Juan Gomez</p>
+        </div>
+        <div class="course-info">
+          <p>Dias disponibles: Martes y Miercoles</p>
+        </div>
+        <div class="course-btn">
+          <button>Cotizar</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="course">
+      <div class="course-image">
+        <img src="../assets/images/courses/math.jpg" />
+      </div>
+      <div class="course-info-container">
+        <div class="course-title">
+          <h3>Clase de Desarrollo Web</h3>
+        </div>
+        <div class="course-description">
+          <p>Crea sitios web modernos y funcionales aprendiendo HTML, CSS y JavaScript.</p>
+        </div>
+        <div class="course-info">
+          <p>Prof. Patricia Litovicius</p>
+        </div>
+        <div class="course-info">
+          <p>Dias disponibles: Martes</p>
+        </div>
+        <div class="course-btn">
+          <button>Cotizar</button>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="course-quoter-container">
+    <div class="course-quoter-title">
+      <h3>Cotizador de clases</h3>
+    </div>
+    <form>
+      <div class="couse-quoter-item">
+        <label for="course">
+          Clase
+        </label>
+
+        <select name="" id="course" required>
+          <option value="" disabled selected>Select a course</option>
+        </select>
+      </div>
+      <div class="couse-quoter-item">
+        <label for="profesor">
+          Profesor
+        </label>
+
+        <select name="" id="professor" required>
+          <option value="" disabled selected>Select a professor</option>
+        </select>
+      </div>
+      <div class="couse-quoter-item">
+        <label>
+          Dias
+        </label>
+
+        <select name="" id="days" required>
+          <option value="" disabled selected>Select a day</option>
+        </select>
+      </div>
+      <div class="couse-quoter-item">
+        <label for="duration">
+          Duracion
+        </label>
+
+        <select name="" id="duration" required>
+          <option value="" disabled selected>Select duration</option>
+          <option value="1">1 Hour</option>
+          <option value="2">2 Hours</option>
+          <option value="3">3 Hours</option>
+          <option value="4">4 Hours</option>
+          <option value="5">5 Hours</option>
+        </select>
+      </div>
+      <div class="couse-quoter-item">
+        <label>
+          Precio
+        </label>
+        <h4 id="price">$ 0 USD</h4>
+      </div>
+
+      <div class="course-quoter-btn">
+        <button id="calculate-price">Contactarse</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer-color">
+    <div>
+      <p>Website made by</p>
+      <p>Matias Delgado</p>
+      <p>Joaquin Rubek</p>
+      <p>Giuliano Cambeiro</p>
+    </div>
+    <a href="./sitemap.html">Sitemap</a>
+  </footer>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    const database = [
+      {
+        course: "Mathematics",
+        professors: [
+          {
+            name: "Pablo Escobar",
+            days: ["Monday", "Wednesday", "Friday"],
+            duration: 2,
+            hourly_rate: 50
+          },
+          {
+            name: "Juan Gomez",
+            days: ["Tuesday", "Wednesday"],
+            duration: 1.5,
+            hourly_rate: 45
+          }
+        ]
+      },
+      {
+        course: "Physics",
+        professors: [
+          {
+            name: "Juan Gomez",
+            days: ["Friday"],
+            duration: 2,
+            hourly_rate: 60
+          }
+        ]
+      },
+      {
+        course: "Web Development",
+        professors: [
+          {
+            name: "Patricia Litovicius",
+            days: ["Tuesday"],
+            duration: 3,
+            hourly_rate: 40
+          }
+        ]
+      }
+    ];
+
+    function initializeForm(data) {
+      const selectCourse = document.getElementById('course');
+      const selectProfessor = document.getElementById('professor');
+      const selectDays = document.getElementById('days');
+      const selectDuration = document.getElementById('duration');
+      const priceDisplay = document.getElementById('price');
+      const calculateButton = document.getElementById('calculate-price');
+
+      data.forEach((course) => {
+        const option = document.createElement('option');
+        option.value = course.course;
+        option.textContent = course.course;
+        selectCourse.appendChild(option);
+      });
+
+      selectCourse.addEventListener('change', () => {
+        const selectedCourse = data.find(course => course.course === selectCourse.value);
+        if (selectedCourse) {
+          clearSelect(selectProfessor, 'Select a professor');
+          clearSelect(selectDays, 'Select a day');
+          selectDuration.value = '';
+          priceDisplay.textContent = '$ 0 USD';
+
+          selectedCourse.professors.forEach(professor => {
+            const option = document.createElement('option');
+            option.value = professor.name;
+            option.textContent = professor.name;
+            selectProfessor.appendChild(option);
+          });
+        }
+      });
+
+      selectProfessor.addEventListener('change', () => {
+        const selectedCourse = data.find(course => course.course === selectCourse.value);
+        const selectedProfessor = selectedCourse.professors.find(
+          professor => professor.name === selectProfessor.value
+        );
+        if (selectedProfessor) {
+          clearSelect(selectDays, 'Select a day');
+          selectDuration.value = '';
+          priceDisplay.textContent = '$ 0 USD';
+
+          selectedProfessor.days.forEach(day => {
+            const option = document.createElement('option');
+            option.value = day;
+            option.textContent = day;
+            selectDays.appendChild(option);
+          });
+        }
+      });
+
+      calculateButton.addEventListener('click', (event) => {
+        event.preventDefault()
+        const selectedCourse = data.find(course => course.course === selectCourse.value);
+        const selectedProfessor = selectedCourse?.professors.find(
+          professor => professor.name === selectProfessor.value
+        );
+        const selectedDuration = parseFloat(selectDuration.value);
+
+        if (selectedProfessor && selectDays.value && selectedDuration) {
+          const totalPrice = selectedDuration * selectedProfessor.hourly_rate;
+          priceDisplay.textContent = `$ ${totalPrice.toFixed(2)} USD`;
+        } else {
+          alert('Please complete all fields to get a quote.');
+        }
+        
+      });
+    }
+
+    function clearSelect(select, placeholder) {
+      select.innerHTML = '';
+      const option = document.createElement('option');
+      option.value = '';
+      option.disabled = true;
+      option.selected = true;
+      option.textContent = placeholder;
+      select.appendChild(option);
+    }
+
+    initializeForm(database);
+  </script>
+</body>
+
 </html>

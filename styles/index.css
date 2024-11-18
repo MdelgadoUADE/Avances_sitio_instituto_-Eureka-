@@ -101,6 +101,19 @@
 
   section .info-container--item:nth-of-type(odd) {
     display: flex;
-    flex-direction: row-reverse; /* Par: flex inverso */
+    flex-direction: row-reverse;
+  }
+
+  #eureka-content {
+    max-width: 1111px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  #eureka h2 {
+    font-size: 78px;
+    font-weight: 800;
   }
 }
