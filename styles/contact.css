@@ -14,6 +14,31 @@ main {
   text-align: center;
 }
 
+.data-submited {
+  background-color: #625f63;
+  color: #fff;
+  text-align: center;
+  width: 550px;
+  padding: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -275px;
+  margin-top: -20px;
+  border-radius: 30px;
+}
+
+.positionthis {
+  opacity: 0;
+  display: none;
+  top: 40%;
+  position: relative;
+}
+.positionthis.animate {
+  animation-name: submmited;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
 .form-control,
 .form-select,
 .form-control::placeholder,
@@ -28,29 +53,59 @@ main {
 
 form {
   background: #f1f2fd;
-  border-radius: 30px;
+  width: 100%;
+}
+form div {
+  flex-direction: column;
 }
 
-#boton_enviar {
+#boton_enviar,
+#boton_borrar {
   margin-top: 24px;
   font-weight: 800;
   background-color: #9893da;
   border: none;
   font-size: 36px;
-  width: 364px;
+  width: 50%;
   padding: 5px 30px;
   color: #fff;
   border-radius: 10px;
 }
 
 #boton_borrar {
-  margin-top: 24px;
-  font-weight: 800;
   background-color: #625f63;
-  border: none;
-  font-size: 36px;
-  width: 364px;
-  padding: 5px 30px;
-  color: #fff;
-  border-radius: 10px;
+}
+
+@media only screen and (min-width: 880px) {
+  form {
+    width: 75%;
+    border-radius: 30px;
+  }
+
+  form div {
+    flex-direction: row;
+  }
+  form div label {
+    width: 25%;
+  }
+  form div label.half {
+    width: 50%;
+  }
+
+  #boton_enviar,
+  #boton_borrar {
+    width: 364px;
+  }
+}
+
+@keyframes submmited {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
