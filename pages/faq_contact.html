@@ -9,16 +9,6 @@
     <link rel="stylesheet" href="../styles/footer.css" />
     <link rel="stylesheet" href="../styles/general.css" />
     <title>Contacto | Eureka!</title>
-    <script>
-      let form = document.getElementById("dataForm");
-      let dataSubmitted = document.getElementById("dataSubmitedAnimation");
-
-      form.addEventListener("submit", function (event) {
-        alert("Formulario enviado con éxito!");
-        dataSubmitted.classList.add("animate");
-        form.reset(); // Reset form fields
-      });
-    </script>
   </head>
   <body class="container-general">
     <hgroup class="main-flex">
@@ -213,5 +203,19 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const btnSubmit = document.querySelector("#boton_enviar");
+      const dataSubmitted = document.querySelector("#dataSubmitedAnimation");
+      const form = document.querySelector("#dataForm")
+      console.log(btnSubmit)
+
+      btnSubmit.addEventListener("click", function(event) {
+        event.preventDefault();
+        alert("Formulario enviado con éxito!");
+        dataSubmitted.classList.add("animate");
+        form.reset();
+      });
+    </script>
   </body>
 </html>
