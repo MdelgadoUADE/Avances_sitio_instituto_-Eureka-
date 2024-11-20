@@ -3,10 +3,10 @@ body {
 }
 
 #sobre {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 #sobre .wordings-container-main {
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .container-general {
@@ -17,7 +17,6 @@ body {
 .box-color-white {
   color: #625f63;
   background-color: #ebebfc;
-  border-radius: 10px;
   font-weight: 800;
 }
 
@@ -31,11 +30,14 @@ body {
 
 #closing-remarks {
   color: #fff;
-  padding-top: 3rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.8;
   font-weight: 800;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#closing-remarks p {
+  text-align: center;
 }
 
 #sobre button {
@@ -44,7 +46,7 @@ body {
   padding: 5%;
   background-color: #9893da;
   border: none;
-  font-size: 48px;
+  font-size: 2.5rem;
   padding: 5px 30px;
   color: #fff;
   border-radius: 10px;
@@ -52,4 +54,52 @@ body {
 
 main section {
   padding-bottom: 5rem;
+}
+
+main section p {
+  text-align: center;
+  padding: 5%;
+}
+
+@media only screen and (min-width: 720px) {
+  #closing-remarks {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #sobre {
+    font-size: 2rem;
+  }
+  #sobre .wordings-container-main {
+    font-size: 3rem;
+  }
+  #closing-remarks {
+    font-size: 2.5rem;
+  }
+
+  #sobre button {
+    font-size: 3rem;
+  }
+  main section p {
+    text-align: initial;
+    padding: 0;
+  }
+
+  main > section {
+    width: 75%;
+  }
+
+  .box-color-white {
+    border-radius: 10px;
+  }
+  section div.d-flex {
+    flex-direction: row !important;
+  }
+  section div.change-direction {
+    flex-direction: row-reverse !important;
+  }
+  .change-direction p {
+    text-align: right;
+  }
 }
