@@ -63,7 +63,6 @@
 
 .info-container--item-image img {
   width: 323px;
-  height: 216px;
   border-radius: 10px;
 }
 
@@ -86,6 +85,8 @@
 }
 
 .info-container-btn button {
+  font-weight: 800;
+
   font-size: 32px;
 }
 
@@ -97,6 +98,15 @@
     font-size: 36px;
     margin-top: 16px;
     margin-bottom: 16px;
+  }
+
+  .info-container--item-text {
+    padding: 0 48px;
+  }
+
+  .info-container--item-image img {
+    width: 424px;
+    border-radius: 10px;
   }
 
   section .info-container--item:nth-of-type(odd) {
@@ -115,5 +125,19 @@
   #eureka h2 {
     font-size: 78px;
     font-weight: 800;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .info-container--item {
+    padding: 0 240px;
+  }
+  .info-container--item-image img {
+    width: 525px;
+    border-radius: 10px;
+  }
+
+  .info-container-btn button {
+    font-size: 48px;
   }
 }

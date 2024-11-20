@@ -1,5 +1,5 @@
 footer {
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   position: static;
   padding: 1% 5%;
@@ -7,17 +7,60 @@ footer {
   bottom: 0;
 }
 footer img {
-  width: 400px;
+  margin-right: 1rem;
+  width: 45%;
 }
 footer p {
   margin: 0;
   padding: 0;
 }
 
+footer img + p {
+  width: 50%;
+  font-size: 0.8rem;
+}
+
 footer a {
+  margin: 0 1rem;
   color: #fff;
+}
+
+footer p > a {
+  margin: 0;
 }
 
 .footer-color {
   background-color: #72727e;
+}
+
+@media only screen and (min-width: 730px) {
+  footer img {
+    width: 35%;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  footer {
+    font-size: 1.2rem;
+  }
+  footer img + p,
+  footer p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  footer {
+    font-size: 1.5rem;
+  }
+  footer img + p,
+  footer p {
+    font-size: 1.5rem;
+  }
+  footer img {
+    width: 300px;
+  }
 }

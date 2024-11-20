@@ -47,7 +47,7 @@
 
 .header--container a {
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
 }
 
 .navbar {
@@ -107,9 +107,10 @@
     margin: 0;
   }
 
-  .active-menu {
+  li.active-menu {
+    margin: 0;
     background-color: #797a9e;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 50px;
   }
 }
