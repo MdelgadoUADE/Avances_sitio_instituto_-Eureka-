@@ -2,18 +2,38 @@
   background-image: url(../assets/images/resources.jpg);
 }
 
+.botonera {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.btn-primary {
+  color: #fff !important;
+}
+
+.card {
+  height: 460px;
+}
+.card img {
+  object-fit: cover;
+  height: 50%;
+}
+
 main {
   padding: 5%;
+}
+main h2 {
+  font-size: 2rem;
 }
 
 main section {
   border-radius: 20px;
-  background-image: url(../assets/images/construccion.jpg);
-  font-size: 3rem;
+  font-size: rem;
   font-weight: 800;
   color: #fff;
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5),
-    -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 main section p {
@@ -21,6 +41,42 @@ main section p {
   margin: 5%;
 }
 
-main section p:nth-child(2) {
-  margin-top: 40%;
+.card * {
+  color: #000;
+}
+
+@media only screen and (min-width: 425px) {
+  .card {
+    height: 560px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .card {
+    height: 660px;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .card {
+    height: 660px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .card {
+    height: 620px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .card {
+    height: 720px;
+  }
 }
