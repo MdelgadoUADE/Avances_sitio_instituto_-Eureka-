@@ -1,161 +1,202 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/logo.ico" />
+    <title>Inicio | Eureka!</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./assets/images/logo.ico" />
-  <title>Inicio | Eureka!</title>
-  <link rel="stylesheet" href="./styles/index.css" />
-  <link rel="stylesheet" href="./styles/header.css" />
-  <link rel="stylesheet" href="./styles/footer.css" />
-  <link rel="stylesheet" href="./styles/general.css" />
-</head>
-
-<body class="container-general">
-  <hgroup class="main-flex">
-    <header class="header-mobile">
-      <div class="collapse header-broad-container" id="navbarToggleExternalContent">
-        <ul class="header--container">
-          <li class="active-menu"><a href="">Inicio</a></li>
-          <li><a href="./pages/courses_tutors.html">Cursos</a></li>
-          <li><a href="./pages/about.html">Sobre</a></li>
-          <li><a href="./pages/resources.html">Recursos</a></li>
-          <li><a href="./pages/faq_contact.html">Contacto / FAQ</a></li>
-          <li><a href="">Reservas</a></li>
-        </ul>
-      </div>
-      <nav class="navbar navbar-dark">
-        <div class="container-fluid header-collapsed-container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a href=""><img src="./assets/images/logo.png" alt="logotipo de eureka" /></a>
+  <body class="container-general">
+    <hgroup class="main-flex">
+      <header class="header-mobile">
+        <div
+          class="collapse header-broad-container"
+          id="navbarToggleExternalContent"
+        >
+          <ul class="header--container">
+            <li class="active-menu"><a href="">Inicio</a></li>
+            <li><a href="./pages/courses_tutors.html">Cursos</a></li>
+            <li><a href="./pages/about.html">Sobre</a></li>
+            <li><a href="./pages/resources.html">Recursos</a></li>
+            <li><a href="./pages/faq_contact.html">Contacto / FAQ</a></li>
+            <li><a href="">Reservas</a></li>
+          </ul>
         </div>
-      </nav>
-    </header>
+        <nav class="navbar navbar-dark">
+          <div class="container-fluid header-collapsed-container">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href=""
+              ><img src="./assets/images/logo.png" alt="logotipo de eureka"
+            /></a>
+          </div>
+        </nav>
+      </header>
 
-    <header class="header-desktop">
-      <nav class="header-desktop-container">
-        <a href=""><img src="./assets/images/logo.png" alt="logotipo de eureka" /></a>
+      <header class="header-desktop">
+        <nav class="header-desktop-container">
+          <a href=""
+            ><img src="./assets/images/logo.png" alt="logotipo de eureka"
+          /></a>
 
-        <ul class="header--container">
-          <li class="active-menu"><a href="">Inicio</a></li>
-          <li><a href="./pages/courses_tutors.html">Cursos</a></li>
-          <li><a href="./pages/about.html">Sobre</a></li>
-          <li><a href="./pages/resources.html">Recursos</a></li>
-          <li><a href="./pages/faq_contact.html">Contacto / FAQ</a></li>
-          <li class="push-left">
-            <img src="./assets/images/user.png" alt="Representacion de Usuario" />
-          </li>
-        </ul>
-        <div class="hidden-menu">
-          <a href="./pages/reserves.html">Reservas</a>
+          <ul class="header--container">
+            <li class="active-menu"><a href="">Inicio</a></li>
+            <li><a href="./pages/courses_tutors.html">Cursos</a></li>
+            <li><a href="./pages/about.html">Sobre</a></li>
+            <li><a href="./pages/resources.html">Recursos</a></li>
+            <li><a href="./pages/faq_contact.html">Contacto / FAQ</a></li>
+            <li class="push-left">
+              <img
+                src="./assets/images/user.png"
+                alt="Representacion de Usuario"
+              />
+            </li>
+          </ul>
+          <div class="hidden-menu">
+            <a href="./pages/reserves.html">Reservas</a>
+          </div>
+        </nav>
+      </header>
+
+      <article class="wordings-container">
+        <h1>Instituto<br />Eureka!</h1>
+        <h3>Encontra las clases que necesitas</h3>
+        <button onclick="location.href='./pages/courses_tutors.html'">
+          Buscar Cursos
+        </button>
+      </article>
+
+      <!-- Empty div for flex positioning -->
+      <div></div>
+    </hgroup>
+    <section class="info-container">
+      <div id="eureka">
+        <h2>¿Que es Eureka?</h2>
+      </div>
+      <div id="eureka-content">
+        <p>
+          Eureka es donde encontras rapidamente la ayuda que requeris para
+          completar tu ciclo de estudio
+        </p>
+      </div>
+      <div class="info-container--item">
+        <div class="info-container--item-image">
+          <img src="./assets/images/index/class.jpg" />
         </div>
-      </nav>
-    </header>
-
-    <article class="wordings-container">
-      <h1>Instituto<br />Eureka!</h1>
-      <h3>Encontra las clases que necesitas</h3>
-      <button>Buscar Cursos</button>
-    </article>
-
-    <!-- Empty div for flex positioning -->
-    <div></div>
-  </hgroup>
-  <section class="info-container">
-    <div id="eureka">
-      <h2>¿Que es Eureka?</h2>
-    </div>
-    <div id="eureka-content">
-      <p>
-        Eureka es donde encontras rapidamente la ayuda que requeris para
-        completar tu ciclo de estudio
-      </p>
-    </div>
-    <div class="info-container--item">
-      <div class="info-container--item-image">
-        <img src="./assets/images/index/class.jpg" />
+        <div class="info-container--item-text">
+          <p>
+            Te ayudamos a encontrar a profesionales de alta calidad para tus
+            materias en segundos
+          </p>
+        </div>
       </div>
-      <div class="info-container--item-text">
-        <p>
-          Te ayudamos a encontrar a profesionales de alta calidad para tus
-          materias en segundos
-        </p>
+      <div class="info-container--item">
+        <div class="info-container--item-image">
+          <img src="./assets/images/index/student.jpg" />
+        </div>
+        <div class="info-container--item-text">
+          <p>
+            Clases personalizadas y flexibles para estudiantes universitarios.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="info-container--item">
-      <div class="info-container--item-image">
-        <img src="./assets/images/index/student.jpg" />
+      <div class="info-container--item">
+        <div class="info-container--item-image">
+          <img src="./assets/images/index/room_class.jpg" />
+        </div>
+        <div class="info-container--item-text">
+          <p>
+            Apoyo académico accesible para mejorar tu rendimiento universitario.
+          </p>
+        </div>
       </div>
-      <div class="info-container--item-text">
-        <p>
-          Clases personalizadas y flexibles para estudiantes universitarios.
-        </p>
+      <div class="info-container-btn">
+        <button
+          class="button"
+          onclick="location.href='./pages/courses_tutors.html'"
+        >
+          Ver mas cursos
+        </button>
       </div>
-    </div>
-    <div class="info-container--item">
-      <div class="info-container--item-image">
-        <img src="./assets/images/index/room_class.jpg" />
-      </div>
-      <div class="info-container--item-text">
-        <p>
-          Apoyo académico accesible para mejorar tu rendimiento universitario.
-        </p>
-      </div>
-    </div>
-    <div class="info-container-btn">
-      <button class="button">Ver mas cursos</button>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer-color">
-    <div class="w-100">
-      <div class="d-flex flex-wrap justify-content-between">
-        <img src="./assets/images/logo-uade.png" alt="Logo de Universidad Argentina de la Empresa" />
-        <p>
-          Trabajo grupal | Materia: Diseño y Desarrollo Web | Curso: 492766 -
-          Grupo 10
-        </p>
+    <footer class="footer-color">
+      <div class="w-100">
+        <div class="d-flex flex-wrap justify-content-between">
+          <img
+            src="./assets/images/logo-uade.png"
+            alt="Logo de Universidad Argentina de la Empresa"
+          />
+          <p>
+            Trabajo grupal | Materia: Diseño y Desarrollo Web | Curso: 492766 -
+            Grupo 10
+          </p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between">
+          <p>
+            Website made by
+            <a
+              href="https://mdelgadouade.github.io/DyDWeb_grupo10_servicios-profesionales/"
+              target="_blank"
+              >Flex Designers</a
+            >:
+          </p>
+          <a
+            href="https://mdelgadouade.github.io/SitioPortfolio/"
+            target="_blank"
+            >Matías Delgado</a
+          >
+          <a href="https://joacoru.github.io/tpo2/" target="_blank"
+            >Joaquin Rubek</a
+          >
+          <a href="https://giuliano-camb.github.io/TPO2/" target="_blank"
+            >Giuliano Cambeiro</a
+          >
+          <a href="./pages/sitemap.html">Sitemap</a>
+        </div>
       </div>
-      <div class="d-flex flex-wrap justify-content-between">
-        <p>
-          Website made by
-          <a href="https://mdelgadouade.github.io/DyDWeb_grupo10_servicios-profesionales/" target="_blank">Flex
-            Designers</a>:
-        </p>
-        <a href="https://mdelgadouade.github.io/SitioPortfolio/" target="_blank">Matías Delgado</a>
-        <a href="https://joacoru.github.io/tpo2/" target="_blank">Joaquin Rubek</a>
-        <a href="https://giuliano-camb.github.io/TPO2/" target="_blank">Giuliano Cambeiro</a>
-        <a href="./pages/sitemap.html">Sitemap</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script>
-    function handleReservation() {
-      const reservation = document.querySelector('.hidden-menu');
-      const user = document.querySelector('.push-left');
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function handleReservation() {
+        const reservation = document.querySelector(".hidden-menu");
+        const user = document.querySelector(".push-left");
 
-      user.addEventListener('click', () => {
-        reservation.style.display = 'flex';
-      });
+        user.addEventListener("click", () => {
+          reservation.style.display = "flex";
+        });
 
-      reservation.addEventListener('mouseleave', () => {
-        reservation.style.display = 'none';
-      })
-    }
+        reservation.addEventListener("mouseleave", () => {
+          reservation.style.display = "none";
+        });
+      }
 
-    handleReservation();
-  </script>
-</body>
-
+      handleReservation();
+    </script>
+  </body>
 </html>
