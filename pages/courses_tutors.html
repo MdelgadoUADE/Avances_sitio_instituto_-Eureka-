@@ -23,7 +23,7 @@
             <li><a href="">Cursos</a></li>
             <li><a href="./about.html">Sobre</a></li>
             <li><a href="./resources.html">Recursos</a></li>
-            <li><a href="./faq_contact.html">Contacto</a></li>
+            <li><a href="./faq_contact.html">Contacto / FAQ</a></li>
           </ul>
         </div>
         <nav class="navbar navbar-dark">
@@ -57,7 +57,7 @@
             <li class="active-menu"><a href="">Cursos</a></li>
             <li><a href="./about.html">Sobre</a></li>
             <li><a href="./resources.html">Recursos</a></li>
-            <li><a href="./faq_contact.html">Contacto</a></li>
+            <li><a href="./faq_contact.html">Contacto / FAQ</a></li>
           </ul>
         </nav>
       </header>
@@ -241,6 +241,32 @@
           </form>
         </div>
       </form>
+      <div class="d-flex flex-wrap py-3 justify-content-center">
+        <p class="pe-5">Metodos de Pago</p>
+        <img
+          src="../assets/images/credit-card.png"
+          alt="Ilustracion de tarjeta de credito"
+          id="credit-card"
+        />
+        <div id="metodos_de_pago">
+          <div>
+            <h3>Tarjetas</h3>
+            <img src="../assets/images/pay-method/visa.png" alt="Visa" /><img
+              src="../assets/images/pay-method/master.svg"
+              alt="Master Card"
+            />
+            <p>Credito y Debito</p>
+          </div>
+          <div>
+            <h3>Billeteras virtuales</h3>
+            <img
+              id="mp"
+              src="../assets/images/pay-method/mp.svg"
+              alt="Mercado Pago"
+            /><img src="../assets/images/pay-method/uala.png" alt="Uála" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="footer-color">
@@ -292,6 +318,17 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      let img_trigger = document.getElementById("credit-card"),
+        popup_mdp = document.getElementById("metodos-de-pago");
+      let count = 0;
+      img_trigger.addEventListener("click", function () {
+        count += 1;
+        popup_mdp.classList.add("mostrar");
+        if (count % 2 == 0) {
+          popup_mdp.classList.remove("mostrar");
+        }
+      });
+
       const database = [
         {
           course: "Mathematics",

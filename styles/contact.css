@@ -7,6 +7,26 @@ main {
   font-size: 2rem;
 }
 
+details {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 44px;
+}
+details summary {
+  width: fit-content;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 16px auto;
+  padding: 16px 32px;
+  background-color: #9893da;
+  color: #fff;
+  border-radius: 1000px;
+}
+details li {
+  font-size: 1.5rem;
+  padding-bottom: 24px;
+}
+
 .h-contacto {
   color: #797a9e;
   font-size: 4rem;
@@ -95,6 +115,9 @@ form div {
   #boton_enviar,
   #boton_borrar {
     width: 364px;
+  }
+  details li {
+    font-size: 2rem;
   }
 }
 

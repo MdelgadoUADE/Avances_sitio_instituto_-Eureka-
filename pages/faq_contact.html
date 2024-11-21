@@ -22,7 +22,7 @@
             <li><a href="./courses_tutors.html">Cursos</a></li>
             <li><a href="./about.html">Sobre</a></li>
             <li><a href="./resources.html">Recursos</a></li>
-            <li class="active-menu"><a>Contacto</a></li>
+            <li class="active-menu"><a>Contacto / FAQ</a></li>
           </ul>
         </div>
         <nav class="navbar navbar-dark">
@@ -56,7 +56,7 @@
             <li><a href="./courses_tutors.html">Cursos</a></li>
             <li><a href="./about.html">Sobre</a></li>
             <li><a href="./resources.html">Recursos</a></li>
-            <li class="active-menu"><a>Contacto</a></li>
+            <li class="active-menu"><a>Contacto / FAQ</a></li>
           </ul>
         </nav>
       </header>
@@ -73,9 +73,62 @@
 
     <main
       id="contacto"
-      class="background-color-primary d-flex justify-content-center py-5"
+      class="background-color-primary d-flex flex-column justify-content-center py-5"
     >
-      <form id="dataForm" class="p-4">
+      <details>
+        <summary>FAQ</summary>
+        <ul>
+          <li>
+            <b>¿Qué tipo de clases ofrecen?</b> <br />
+            Ofrecemos clases personalizadas de matemáticas, física y
+            programación diseñadas para estudiantes universitarios.
+          </li>
+          <li>
+            <b>¿Cómo se realizan las clases?</b> <br />
+            Las clases son virtuales y se realizan a través de Google Meet.
+            Puedes concretar y gestionar las sesiones desde nuestra página de
+            reservas.
+          </li>
+          <li>
+            <b>¿Cómo se agendan las clases?</b> <br />
+            Las clases se agendan directamente desde nuestra página de reservas,
+            según la disponibilidad del estudiante y del profesor.
+          </li>
+          <li>
+            <b>¿Cuánto duran las sesiones?</b> <br />
+            La duración de las sesiones varía según lo que solicite el
+            estudiante.
+          </li>
+          <li>
+            <b>¿Incluyen materiales de apoyo?</b> <br />
+            Sí, ofrecemos materiales de apoyo gratuitos en varios formatos,
+            disponibles en la página de recursos.
+          </li>
+          <li>
+            <b>¿Cuánto cuesta una clase?</b> <br />
+            El precio depende de la duración y modalidad. Puedes utilizar
+            nuestra calculadora en la página de cursos para estimar el costo.
+          </li>
+          <li>
+            <b>¿Qué métodos de pago aceptan?</b> <br />
+            Los metodos de pago vigentes puedes encontrarlos en la misma pagina
+          </li>
+          <li>
+            <b>¿Puedo elegir a mi profesor?</b> <br />
+            Sí, puedes seleccionar a tu profesor al momento de agendar la clase.
+          </li>
+          <li>
+            <b
+              >¿Hay un límite en la cantidad de clases que puedo tomar por
+              semana?</b
+            >
+            <br />
+            No, puedes tomar tantas clases como necesites, según la
+            disponibilidad de los profesores.
+          </li>
+        </ul>
+      </details>
+      <form id="dataForm" class="p-4 mx-auto">
         <div id="dataSubmitedAnimation" class="positionthis">
           <h2 class="data-submited">Datos enviados correctamente</h2>
         </div>
@@ -207,10 +260,10 @@
     <script>
       const btnSubmit = document.querySelector("#boton_enviar");
       const dataSubmitted = document.querySelector("#dataSubmitedAnimation");
-      const form = document.querySelector("#dataForm")
-      console.log(btnSubmit)
+      const form = document.querySelector("#dataForm");
+      console.log(btnSubmit);
 
-      btnSubmit.addEventListener("click", function(event) {
+      btnSubmit.addEventListener("click", function (event) {
         event.preventDefault();
         alert("Formulario enviado con éxito!");
         dataSubmitted.classList.add("animate");
