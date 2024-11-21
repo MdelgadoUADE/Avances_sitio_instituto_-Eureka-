@@ -45,7 +45,8 @@
   margin: 4px 0;
 }
 
-.header--container a {
+.header--container a,
+.hidden-menu a {
   font-size: 1.6rem;
   text-decoration: none;
   color: #fff !important;
@@ -62,6 +63,38 @@
 
 .navbar-dark .navbar-toggler {
   border: none !important;
+}
+
+.header--container li img {
+  background-color: #fff;
+  position: absolute;
+  left: 100vw;
+  margin-left: -105px;
+  margin-top: 10px;
+  width: 80px;
+  border-radius: 1000px;
+}
+
+.push-left {
+  width: 80px;
+}
+
+.hidden-menu {
+  display: flex;
+  position: absolute;
+  padding: 1.5rem;
+  top: 6.45rem;
+  right: 0;
+  width: 240px;
+  height: 100px;
+  background-color: #625f63;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 0px 0px 0px 15px;
+}
+
+.hidden-menu a {
+  text-align: center;
 }
 
 @media only screen and (min-width: 950px) {

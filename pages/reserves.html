@@ -5,11 +5,10 @@
     <link rel="icon" href="../assets/images/logo.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
     <link rel="stylesheet" href="../styles/general.css" />
-    <link rel="stylesheet" href="../styles/proposal.css" />
-
-    <title>Propuesta | Eureka!</title>
+    <title>Contacto | Eureka!</title>
   </head>
   <body class="container-general">
     <hgroup class="main-flex">
@@ -23,8 +22,8 @@
             <li><a href="./courses_tutors.html">Cursos</a></li>
             <li><a href="./about.html">Sobre</a></li>
             <li><a href="./resources.html">Recursos</a></li>
-            <li><a href="./faq_contact.html">Contacto / FAQ</a></li>
-            <li><a href="./reserves.html">Reservas</a></li>
+            <li class="active-menu"><a>Contacto / FAQ</a></li>
+            <li><a href="">Reservas</a></li>
           </ul>
         </div>
         <nav class="navbar navbar-dark">
@@ -58,7 +57,7 @@
             <li><a href="./courses_tutors.html">Cursos</a></li>
             <li><a href="./about.html">Sobre</a></li>
             <li><a href="./resources.html">Recursos</a></li>
-            <li><a href="./faq_contact.html">Contacto / FAQ</a></li>
+            <li class="active-menu"><a>Contacto / FAQ</a></li>
             <li class="push-left">
               <img
                 src="../assets/images/user.png"
@@ -67,92 +66,82 @@
             </li>
           </ul>
           <div class="hidden-menu">
-            <a href="./reserves.html">Reservas</a>
+            <a href="">Reservas</a>
           </div>
         </nav>
       </header>
 
-      <article class="wordings-container">
-        <h1>Propuesta</h1>
-        <h3>Cual es nuestro proposito</h3>
-      </article>
-      <!-- Empty div for flex positioning -->
+      <section>
+        <article class="wordings-container">
+          <h1>Reservas</h1>
+          <h3>¡Revisa tus ultimas reservas!</h3>
+        </article>
+      </section>
       <div></div>
     </hgroup>
-    <main class="background-color-primary">
-      <article class="container-flex-padded">
-        <h2 class="flex-center">Propuesta</h2>
-        <h3>¿De que trata "Eureka!"?</h3>
-        <p>
-          El objetivo del intituto <b>Eureka!</b> es juntar a los estudiantes
-          que necesitan apoyo académico con profesores expertos en sus campos
-          para poder potenciar su desarrollo
-        </p>
-        <h3>¿Cual es el objetivo del sitio?</h3>
-        <p>
-          Este sitio busca agilizar y facilitar al estudiante encontrar un apoyo
-          personalizado, dando rapido acceso a la busqueda de material, tanto de
-          estudio como docente y cotizacion rápida de clases de apoyo
-        </p>
-        <h3>¿Cuál es el concepto general del sitio web?</h3>
-        <p>
-          El sitio en general guía a los estudiantes a consultar y cotizar los
-          cursos, utiliza un diseño sobrio para dar un toque mas profesional
-          pero con una paleta de colores que de originalidad para este tipo de
-          sitios, poniendo por encima calidad
-        </p>
-        <h3>¿Como atraen trafico al sitio?</h3>
-        <p>
-          Par atraer trafico a la pagina se usara una mezcla de marketing a
-          traves de redes sociales como sitios de similar categoria
-          (academicos), ej. Coderhouse, Soy Henry, etc. y buen uso de SEO para
-          ubicarse arriba en las busquedas de navegador Cabe destacar que estos
-          sitios generan buen trafico definiendo bien su marca
-        </p>
-      </article>
-      <article class="container-flex-padded target-audience-container">
-        <h2 class="flex-center">Publico objetivo</h2>
-        <h5>
-          El publico objetivo al que apunta el sitio tiene las siguientes
-          caracteristicas:
-        </h5>
-        <div class="target-audience-detail">
-          <p><strong>Edades:</strong> 10-25 años</p>
-          <p><strong>Genero:</strong> Indistinto</p>
-          <p><strong>Aficiones:</strong> Estudio, enseñanza</p>
-          <p><strong>Nivel economico:</strong> Bajo, medio</p>
-          <p><strong>Intereses:</strong> Aprendisaje</p>
-          <p><strong>Niveles de estudio:</strong> Universitario o superior</p>
-        </div>
-      </article>
 
-      <article class="container-flex-padded design-container">
-        <h2 class="flex-center">Diseño</h2>
-        <div class="design-detail">
-          <h5>Paleta de colores</h5>
-          <div class="design-detail--colors">
-            <img src="../assets/images/colors_palette.png" />
-          </div>
-          <div class="design-detail--btn container-flex-padded">
-            <button>
-              <a
-                href="https://design.penpot.app/#/view/f4c411c4-dd43-81ae-8005-1e891e7d49bb?page-id=f4c411c4-dd43-81ae-8005-1e891e7d49bc&section=interactions&index=6&share-id=f4c411c4-dd43-81ae-8005-2025a64d75dc"
-                >Penpot</a
-              >
-            </button>
-            <button>
-              <a
-                href="https://github.com/MdelgadoUADE/Avances_sitio_instituto_-Eureka-"
-                >Link al repo</a
-              >
-            </button>
-          </div>
+    <main
+      id="contacto"
+      class="background-color-primary d-flex flex-column justify-content-center py-5"
+    >
+      <div class="text-highlight p-4">
+        <div class="d-flex justify-content-between">
+          <h2>Proxima clase:</h2>
+          <p class="me-5">Viernes 27/12</p>
         </div>
-        <div class="design-detail--colors container-flex-padded">
-          <h5>Logo/Favicon</h5>
-          <img src="../assets/images/logo.png" />
+        <div>
+          <p><b>Clase de Física</b></p>
+          <p class="text-small">Prof. Juan Gomez</p>
         </div>
-      </article>
+      </div>
+      <form id="dataForm" class="p-4 mx-auto">
+        <div id="dataSubmitedAnimation" class="positionthis">
+          <h2 class="data-submited">Datos enviados correctamente</h2>
+        </div>
+        <h2>Solicitar turno</h2>
+        <div class="py-3 d-flex justify-content-between">
+          <label for="clase">Clase</label>
+          <select id="clase" class="form-select">
+            <option selected disabled>Seleccione una opcion</option>
+            <option value="consulta">Consulta</option>
+            <option value="presupuesto">Presupuesto</option>
+            <option value="sugerencia">Sugerencia</option>
+          </select>
+        </div>
+
+        <div class="py-3 d-flex justify-content-between">
+          <label for="profesor">Profesor</label>
+          <select id="profesor" class="form-select">
+            <option selected disabled>Seleccione una opcion</option>
+            <option value="consulta">Consulta</option>
+            <option value="presupuesto">Presupuesto</option>
+            <option value="sugerencia">Sugerencia</option>
+          </select>
+        </div>
+
+        <div class="py-3 d-flex justify-content-between">
+          <label for="duracion">Duracion</label>
+          <select id="duracion" class="form-select">
+            <option selected disabled>Seleccione una opcion</option>
+            <option value="consulta">Consulta</option>
+            <option value="presupuesto">Presupuesto</option>
+            <option value="sugerencia">Sugerencia</option>
+          </select>
+        </div>
+        <div class="py-3 d-flex justify-content-between">
+          <div class="mt-auto">
+            <label for="fecha" class="me-3">Fecha</label>
+            <input type="date" class="form-date" id="fecha" required />
+          </div>
+          <button
+            id="boton_enviar"
+            type="submit"
+            class="btn btn-primary px-4 mx-2"
+          >
+            Solicitar
+          </button>
+        </div>
+      </form>
     </main>
 
     <footer class="footer-color">
@@ -203,5 +192,19 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const btnSubmit = document.querySelector("#boton_enviar");
+      const dataSubmitted = document.querySelector("#dataSubmitedAnimation");
+      const form = document.querySelector("#dataForm");
+      console.log(btnSubmit);
+
+      btnSubmit.addEventListener("click", function (event) {
+        event.preventDefault();
+        alert("Formulario enviado con éxito!");
+        dataSubmitted.classList.add("animate");
+        form.reset();
+      });
+    </script>
   </body>
 </html>
